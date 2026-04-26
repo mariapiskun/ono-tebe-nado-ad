@@ -28,6 +28,7 @@
 .address {
     display: flex;
     flex-direction: column;
+    font-style: normal;
 }
 
 .header__address {
@@ -56,7 +57,7 @@
 }
 
 .cover__title,
-.cover__description{
+.cover__description {
     position: relative;
     z-index: 1;
 }
@@ -117,6 +118,7 @@
 }
 
 .lots__title {
+    text-transform: uppercase;
     margin-left: 40px;
     margin-bottom: 27px;
     font-family: 'Raleway', sans-serif;
@@ -178,7 +180,7 @@
 }
 
 .card__title,
-.card__text{
+.card__text {
     position: relative;
     z-index: 1;
     color: white;
@@ -281,6 +283,13 @@
     text-align: center;
 }
 
+.footer__link-list,
+.footer__social-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .footer__link-list {
     list-style: none;
     margin: 0;
@@ -295,6 +304,14 @@
     justify-self: end;
     display: flex;
     gap: 48px;
+}
+
+.footer__link {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
 }
 
 .footer__link_active {
