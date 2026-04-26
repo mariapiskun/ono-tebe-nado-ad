@@ -78,10 +78,12 @@ body {
     letter-spacing: 0.3em;
     color: white;
     margin: 0;
+    width: 100%;
 }
 
 .aligned-text {
     display: block;
+    width: 100%;
 }
 
 .aligned-text_center {
@@ -226,7 +228,7 @@ body {
     display: grid;
     grid-template-columns: 334px 1fr;
     column-gap: 25px;
-    margin: 180px 50px;
+    margin: 0px 50px;
     align-items: start;
 }
 
