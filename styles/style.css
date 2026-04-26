@@ -98,7 +98,7 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    margin-top: 106px;
+    margin-top: 135px;
     align-items: center;
     line-height: 28px;
 }
@@ -152,7 +152,7 @@ body {
     position: relative;
     flex-direction: column;
     height: 100%;
-    padding: 40px 48px;
+    padding: 48px 40px;
 }
 
 .card_type_film {
